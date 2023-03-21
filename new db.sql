@@ -73,3 +73,8 @@ ALTER TABLE Student
 MODIFY COLUMN Stud_Gender ENUM('f', 'm');
 
 -- COMMIT;
+
+ALTER TABLE Student
+MODIFY COLUMN EnrollStatus ENUM('0', '1', '2', '3') NOT NULL;
+
+-- COMMIT;
